@@ -1,0 +1,116 @@
+body{
+	margin: 0;
+	font-size: 14px;
+	color: #6c7279
+
+	background-color: white;
+}
+*{
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+
+p{
+	margin: 0 0 10px 0;
+}
+.container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	
+}
+.header{
+	padding:20px 0;
+	background-color:white;
+	width: 100%;
+	height: 100px;
+}
+.header__inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	}
+	.nav{
+	font-size: 21px;
+	text-transform: uppercase;
+	display: flex;
+}
+.nav__link{
+	color:black;
+	text-decoration: none;
+	opacity: 0.65;
+	margin-left: 100px;
+
+
+}
+.nav__link:hover{
+	text-decoration: underline;
+	opacity: 1;
+	transition: opacity 0.5s linear;
+}
+
+.intro__title{
+	margin: 0;
+
+	font-family: 'Open Sans', sans-serif;
+	font-size:40px;
+	color:black;
+	text-align: left;
+	margin-bottom: 60px;
+}
+.btn{
+	display: inline-block;
+	vertical-align: top;
+	color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 600px; 
+	text-decoration: none;
+	padding: 14px 40px;
+	border-radius: 20px;
+	transition: background 0.2s linear;
+}
+.btn--blue{
+	background-color: #437D98;
+}
+.footer{
+	padding: 70px 0;
+	background-color: #111111;
+}
+
+.footer__inner{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer__block{
+	width: 33%;
+	line-height: 15px;
+	text-align: center;
+}
+
+.footer__title{
+	font-size: 14px;
+	color: white;
+	text-transform: uppercase;
+	padding: 5px 0; 
+	text-decoration: underline;
+}
+
+.footer__link a{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px 0;
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	font-family: "Myriad W01 Lt",arial,sans-serif;
+	justify-content: center;
+}
+
+.footer__link a:hover{
+	color: black;
+}
